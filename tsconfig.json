@@ -65,13 +65,6 @@
     ]
   },
   "include": [
-<<<<<<< Updated upstream
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "typings/**/*.ts",
-=======
     "./typed-router.d.ts",
     "./vite.config.*",
     "./env.d.ts",
@@ -81,7 +74,6 @@
     "./themeConfig.ts",
     "./auto-imports.d.ts",
     "./components.d.ts"
->>>>>>> Stashed changes
   ],
   "exclude": [
     "./dist",

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [文档](https://nihaojob.github.io/editorDoc/) | [English](https://github.com/nihaojob/vue-fabric-editor/blob/main/README-en.md) | 中文 
 
 # vue-fabric-editor
@@ -11,9 +12,17 @@
 
 - [预览](https://nihaojob.github.io/vue-fabric-editor/) 
 - [Gitee预览](https://nihaojob.gitee.io/vue-fabric-editor/#/)
+=======
+# vue
 
-![image](https://user-images.githubusercontent.com/13534626/230828335-0adee0ae-b951-4171-b6ba-d2b9cd44dd6a.png)
+This template should help get you started developing with Vue 3 in Vite.
 
+## Recommended IDE Setup
+>>>>>>> Stashed changes
+
+[VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur).
+
+<<<<<<< Updated upstream
 ## 特点
 1. 插件化架构：可自定义素材、右键菜单、快捷键等功能，易扩展。
 2. 简洁易用：以轻量、简洁为主的图形编辑器，而非大而全的在线PS类的重行设计工具。
@@ -40,22 +49,35 @@
 - 图片替换
 - 图片滤镜
 - 国际化
+=======
+## Type Support for `.vue` Imports in TS
+>>>>>>> Stashed changes
 
-## 使用
+Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates.
 
-### 启动项目
-请先安装node.js v16，然后执行以下命令：
+However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can run `Volar: Switch TS Plugin on/off` from VS Code command palette.
 
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
 ```
-yarn install
-yarn serve
-```
 
+<<<<<<< Updated upstream
 为非web前端开发人员准备了[部署教程](https://t.zsxq.com/0drqSuyjY)，快速解决你的部署需求，你可以联系我进行**有偿的部署、定制开发**。
+=======
+### Compile and Hot-Reload for Development
+>>>>>>> Stashed changes
 
-### 自定义素材
-可自定义字体、设计模板、标题模板等，所有自定义素材在https://github.com/nihaojob/vue-fabric-editor-static 项目中保存。
+```sh
+npm run dev
+```
 
+<<<<<<< Updated upstream
 Pro商业版支持素材管理功能，可以在后台维护字体、模板、字体样式模板、图片素材，支持分类搜索等功能，**快速构建符合自己业务的图片编辑器应用**。
 
 我们通过有偿的方式积累高质量的常见问题、最佳实践文档，欢迎加入星球：
@@ -316,3 +338,10 @@ Pro商业版支持素材管理功能，可以在后台维护字体、模板、�
 ## License
 
 Licensed under the MIT License.
+=======
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+>>>>>>> Stashed changes
